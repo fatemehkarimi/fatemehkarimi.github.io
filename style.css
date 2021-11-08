@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 body {
     margin: 0;
@@ -84,5 +85,19 @@ body {
 }
 
 .menu-item {
+    width: 100%;
     font-size: 150%;
+    padding: 7px 0;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.menu-item > a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-item:hover {
+    background-color: #e8edea;
+    cursor: pointer;
 }
