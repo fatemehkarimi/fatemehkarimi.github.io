@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -61,4 +63,26 @@ body {
     margin: 0 auto;
     width: 100%;
     height: auto;
+}
+
+.menu-items-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+
+.title-container {
+    width: 100%;
+    font-size: 175%;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+.menu-item {
+    font-size: 150%;
 }
