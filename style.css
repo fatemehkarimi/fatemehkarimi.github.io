@@ -85,3 +85,14 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 110%;
 }
+
+.social-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2vh;
+    padding-top: 2vh;
+}
+
+.social-container img {
+    width: 3vh;
+}
