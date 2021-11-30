@@ -13,11 +13,12 @@ body {
 }
 
 .sidebar {
-    height: 65vh;
     display: flex;
     flex-direction: column;
     box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.4);
-    margin: 8vh 5vh 0 35vh;
+    margin-top: 8vh;
+    margin-left: 8vw;
+    padding-bottom: 2vh;
     background-color: #c0e3e7;
 }
 
@@ -30,7 +31,7 @@ body {
     justify-content: flex-end;
     align-items: center;
     position: relative;
-    padding: 5vh 5vh 0 5vh;
+    padding: 3vh 3vw 0 3vw;
 }
 
 .profile-frame {
@@ -42,8 +43,8 @@ body {
 }
 
 .inner-frame {
-    width: 200px;
-    height: 200px;
+    width: 15rem;
+    height: 15rem;
 }
 
 .outter-frame {
@@ -60,7 +61,7 @@ body {
 }
 
 .menu-items-container {
-    margin-top: 20px;
+    margin-top: 1.2em;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -71,7 +72,7 @@ body {
 .title-container {
     width: 100%;
     text-align: center;
-    margin: 0 0 10px 0;
+    margin: 0 0 0.4em 0;
 }
 
 .name-container {
@@ -89,10 +90,10 @@ body {
 .social-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 2vh;
+    grid-column-gap: 1vw;
     padding-top: 2vh;
 }
 
 .social-container img {
-    width: 3vh;
+    width: min(3vh, 3vw);
 }
