@@ -20,6 +20,7 @@ body {
     margin-left: 18vw;
     padding-bottom: 2vh;
     background-color: #c0e3e7;
+    max-height: 40vh;
 }
 
 .profile-container {
@@ -119,4 +120,41 @@ body {
     line-height: 1.4;
     padding-bottom: 3vh;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.general-info-container {
+    display: flex;
+    justify-content: flex-start;
+    margin: 5vh 2vw;
+    font-family: 'Raleway', sans-serif;
+}
+
+.general-info-container h1 {
+    color: #797979;
+    font-size: 135%;
+    font-weight: normal;
+}
+
+.personal-info-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.education-info-container {
+    display: flex;
+    width: 50%;
+}
+
+.table-title {
+    font-size: 80%;
+    font-weight: bold;
+}
+
+.table-info {
+    padding: 10px 0;
+}
+
+.table-info > a {
+    color: black;
 }
